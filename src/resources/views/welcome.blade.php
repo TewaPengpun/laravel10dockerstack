@@ -18,7 +18,7 @@
         </style>
     </head>
     <body>
-        <div class="container text-end bg-dark">
+        <div class="container text-end">
             @if (Route::has('login'))
                 <div class="">
                     @auth
@@ -31,9 +31,11 @@
                         @endif
                     @endauth
                 </div>
-                    <div>
+                    <div class="container mt-5">
                         <h1>Home Page</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quam itaque eum ratione veritatis asperiores aut at, necessitatibus corrupti commodi modi inventore cum possimus ipsa vel culpa corporis debitis mollitia.</p>
+                        ,<h2 class="mb-5">ตัวอย่างหน้าเว็บไซต์</h2>
+                        <p>แก้ไขโดยทีม dev</p>
                     </div>
             @endif
 
