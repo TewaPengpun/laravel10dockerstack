@@ -17,7 +17,7 @@
            
         </style>
     </head>
-    <body>
+    <body class="bg-success">
         <div class="container text-end bg-dark">
             @if (Route::has('login'))
                 <div class="">
@@ -33,6 +33,12 @@
                 </div>
                     <div>
                         <h1>Home Page</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quam itaque eum ratione veritatis asperiores aut at, necessitatibus corrupti commodi modi inventore cum possimus ipsa vel culpa corporis debitis mollitia.</p>
+                    </div>
+
+                    <div>
+                        <h2>Edit from figbug team</h2>
+                        <p>This area edit figbug</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quam itaque eum ratione veritatis asperiores aut at, necessitatibus corrupti commodi modi inventore cum possimus ipsa vel culpa corporis debitis mollitia.</p>
                     </div>
             @endif
